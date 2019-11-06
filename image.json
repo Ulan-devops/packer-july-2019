@@ -1,6 +1,6 @@
 {
     "builders": [{
-      "type": "amazon-ebs",
+      "type": "{{user `amazon-ebs`}}",
       "region": "{{user `region`}}",
       "instance_type": "{{user `instance_type`}}",
       "source_ami": "{{user `source_ami`}}",
